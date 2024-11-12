@@ -1,0 +1,126 @@
+body {
+    padding-top: 60px;
+}
+.navbar_new {
+    background-color: #7b241c !important;
+}
+
+.p_pro{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    padding: 1rem;
+}
+.card {
+    margin: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+.line-color{
+    width: 100%; 
+    border-color: #7b241c; 
+    border-style: solid; 
+    border-width: 2px 0 0 0;
+    margin-top: 10px; 
+}
+.navbar_font {
+    color: white !important;
+}
+.ProductoCss{
+    width: 100% !important;
+}
+
+.color_font {
+    background-color: #7b241c;
+}
+
+.alert {
+    border-radius: 0rem !important;
+}
+
+.modal_new {
+    background-color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    margin-left: 15px;
+    flex: 1; /* Permite que ocupe el espacio restante */
+}
+
+.d-flex {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.w-style {
+    width: 100% !important;
+}
+
+.carousel-inner {
+    width: 100% !important;
+    height: auto;
+    max-height: 300%;
+}
+
+.imag {
+    margin: auto;
+    display: block; 
+    max-width: 50%; 
+    height: auto; 
+}
+
+.titleP {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7b241c;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #7b241c;
+    display: inline-block;
+}
+.row.justify-content-center {
+    gap: 10px;
+}
+.card {
+    width: 100%;
+    max-width: 350px;
+}
+.footer {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.footer_inv{
+    color: #fff;
+    background-color: #7b241c;
+    border-color: #7b241c;
+}
+.footer .footer-img-left,
+.footer .footer-img-right {
+    width: 150px;
+    height: auto;
+    margin: 50px;
+}
+.footer .card,
+.footer .card:hover,
+.footer .card:focus,
+.footer .card *,
+.footer .card:hover *,
+.footer .card:focus * {
+    transition: none !important;    
+    box-shadow: none !important;         
+    cursor: default !important;          
+    pointer-events: none;                
+}
+.footer .card-body, .footer .card-footer {
+    text-align: center;
+}
